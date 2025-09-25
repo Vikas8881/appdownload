@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Download App</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 2rem; background:#f7fafc; color:#111827; }
+    .card { max-width:520px; margin:1.5rem auto; background:white; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.06); padding:1.5rem; }
+    .title { font-size:1.25rem; margin-bottom:0.5rem; }
+    .meta { color:#6b7280; font-size:0.9rem; margin-bottom:1rem; }
+    .download-btn {
+      display:inline-block;
+      padding:0.7rem 1rem;
+      border-radius:8px;
+      background:#2563eb;
+      color:white;
+      text-decoration:none;
+      font-weight:600;
+    }
+    .hint { margin-top:0.75rem; color:#374151; font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="title">Download our Android App</div>
+    <div class="meta">Tap the button below to download the APK. After download, open the file on your Android device to install.</div>
+
+    <!-- Replace the href value with your APK URL -->
+    <a id="downloadLink" class="download-btn" href="app/Binge4k.apk" download="Binge4k.apk"  aria-label="Download APK">
+      Download APK
+    </a>
+
+    <div class="hint">
+      Server note: for best behavior, serve the file with Content-Type
+      <code>application/vnd.android.package-archive</code> and a
+      <code>Content-Disposition: attachment; filename="my-app.apk"</code> header.
+    </div>
+
+    <div class="hint" style="margin-top:0.6rem; font-size:0.85rem;">
+      Safety tip: users must allow "Install unknown apps" for the browser or file manager on Android to install APKs not from Google Play.
+    </div>
+  </main>
+
+  <!-- <script> -->
+    <!-- // Optional: show a friendly confirmation and fallback if "download" attribute isn't honored. -->
+    <!-- (function () { -->
+      <!-- const link = document.getElementById('downloadLink'); -->
+      <!-- link.addEventListener('click', function (e) { -->
+        <!-- // On some mobile browsers the download attribute is ignored and the APK opens in-browser. -->
+        <!-- // We keep default behavior but show a short prompt (non-blocking). -->
+        <!-- setTimeout(() => { -->
+          <!-- if (confirm('If the download did not start, would you like to open the download page in a new tab?')) { -->
+            <!-- window.open(link.href, '_blank', 'noopener'); -->
+          <!-- } -->
+        <!-- }, 1200); -->
+      <!-- }); -->
+    <!-- })(); -->
+  <!-- </script> -->
+</body>
+</html>

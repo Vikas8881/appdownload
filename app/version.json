@@ -1,7 +1,7 @@
 {
-  "versionCode": 110000, 
+  "versionCode": 110000,
   "versionName": "11.0.0",
-  "apkUrl": "https://binge4k.pages.dev/app/Binge4k%20v10.0.2.apk",
+  "apkUrl": "https://tinyurl.com/y4336ka8",
   "sha256": "c8a1b7f43a06d2d32c6e11c2c2be31d913cd4a75c5f23b89f7ac16b1530aa2fb",
-  "changelog": "Bug fixes and streaming improvements."
+  "changelog": "• Live Preview and EPG now available in Live TV section\n• Single Tap for Live Preview, Double Tap to open Main Player\n• TV Channels can now change using Remote UP/DOWN buttons\n• Background Radio mode for TV channels\n• Inbuilt update check with prompt\n• Optimized font sizes for all devices\n• Improved Chrome Cast quality\n• Multi-screen improved (tested on TV & Phone)\n• Bug fixes and streaming enhancements\n\nMore features will be available in future updates."
 }
